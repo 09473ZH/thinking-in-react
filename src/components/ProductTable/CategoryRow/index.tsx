@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {TableRowProps} from '../../types'
+import { TableRowProps } from '../../types'
 
 export function CategoryRow(props: TableRowProps){
     return (

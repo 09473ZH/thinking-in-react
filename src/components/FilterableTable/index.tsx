@@ -1,10 +1,10 @@
 import * as React from 'react'
+import { useState } from 'react'
 import {
     FilterableTableProps,
 } from '../types'
 import { SearchBar } from '../SearchBar'
 import { ProductTable } from '../ProductTable'
-import {useState} from "react";
 
 
 export function FilterableTable(props: FilterableTableProps) {
